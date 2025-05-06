@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Grocery Item</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add New Grocery Item</h2>
+        <form action="add_item.php" method="POST">
+            <input type="text" name="item_name" placeholder="Item Name" required>
+            <select name="category" required>
+                <option value="Dairy">Dairy</option>
+                <option value="Vegetables">Vegetables</option>
+                <option value="Snacks">Snacks</option>
+                <!-- Add more categories as needed -->
+            </select>
+            <input type="number" name="price" placeholder="Price" required>
+            <input type="number" name="quantity" placeholder="Quantity" required>
+            <button type="submit">Add Item</button>
+        </form>
+    </div>
+</body>
+</html>

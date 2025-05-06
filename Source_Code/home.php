@@ -1,0 +1,117 @@
+<?php
+session_start(); // Start the session
+
+// Check if the user is logged in
+if (!isset($_SESSION['username'])) {
+    // Redirect to login page if not logged in
+    header("Location: login.php");
+    exit();
+}
+
+$username = $_SESSION['username'];  // Get the username from session
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List - Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            text-align: center;
+            width: 400px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 34px;
+        }
+
+        h3 {
+            color: #555;
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+
+        a.button {
+            display: block;
+            background-color: #27ae60;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        a.button:hover {
+            background-color: #219150;
+        }
+
+        .report-section {
+            margin-top: 30px;
+        }
+
+        .contact-info {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .user-greeting {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="user-greeting">
+            <?php echo "👋 Welcome, " . htmlspecialchars($username) . "!"; ?>
+        </div>
+
+        <h1>Welcome to Your Grocery List</h1>
+        <h3>Manage and track your groceries easily</h3>
+
+        <a href="add_item.php" class="button">➕ Add New Item</a>
+        <a href="view_list.php" class="button">📋 View Your Items</a>
+
+        <div class="report-section">
+            <h2 style="color:#2c3e50;">Expense Report</h2>
+            <a href="generate_report.php" class="button">📊 Generate Monthly Report</a>
+        </div>
+
+        <a href="logout.php" class="button" style="background-color:#c0392b;">🚪 Logout</a>
+
+        <div class="contact-info">
+            <p>Contact Us: attia.computerengineer079@gmail.com</p>
+            <p>Phone: +92 3180082640</p>
+            <p>&copy; 2025 Grocery List Manager</p>
+        </div>
+    </div>
+</body>
+</html>

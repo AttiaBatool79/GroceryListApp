@@ -1,10 +1,10 @@
-# 📂 Grocery List Home Application
+# Grocery List Home Application
 
 Welcome to the **Grocery List Home Application**! This project helps users manage their grocery items easily by allowing them to add, view, and remove items, as well as generate reports. It is built using **XAMPP** for the server, **HTML, CSS, PHP** for the front end and backend, and **MySQL** for the database.
 
 ---
 
-## 🔧 How to Use the Application
+## How to Use the Application
 
 1. **Set Up XAMPP**  
    - Download and install [XAMPP](https://www.apachefriends.org/index.html).
@@ -27,7 +27,7 @@ Welcome to the **Grocery List Home Application**! This project helps users manag
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 This project has the following folders:
 
@@ -40,9 +40,15 @@ This project has the following folders:
 3. **Source_Code**  
    Contains all the code files (HTML, PHP, CSS) and other resources like images used in the project.
 
+4. **Documentation**  
+   Contains project-related documentation, including the presentation and project report.
+
+5. **Project_Diagrams**  
+   Contains project-related diagrams like the ER (Entity-Relationship) model and relational models that represent the structure of the database.
+
 ---
 
-### 📁 XAMPP_Setup
+### XAMPP_Setup
 
 The **`XAMPP_Setup`** folder contains files to guide you through the process of setting up XAMPP and running the project.
 
@@ -60,7 +66,7 @@ The **`XAMPP_Setup`** folder contains files to guide you through the process of 
 
 ---
 
-### 📁 Project_Media
+### Project_Media
 
 The **`Project_Media`** folder contains images and diagrams of the application. These images help to visualize the pages and flow of the project.
 
@@ -90,7 +96,34 @@ The **`Project_Media`** folder contains images and diagrams of the application. 
 
 ---
 
-### 📁 Source_Code
+### Documentation
+
+The **`Documentation`** folder contains important project documents, including the project report, presentation, and diagrams.
+
+1. **Project_Report.pdf**  
+   - Detailed project report that explains the entire development process, functionality, and outcomes of the project.
+
+2. **Project_Presentation.pptx**  
+   - PowerPoint presentation summarizing the project, its features, and how it works.
+
+3. **ER_and_Relational_Model.pdf**  
+   - Contains the Entity-Relationship (ER) model and relational model diagrams that represent the database structure.
+
+---
+
+### Project_Diagrams
+
+The **`Project_Diagrams`** folder contains the project diagrams, including the ER and relational models.
+
+1. **ER_Diagram.png**  
+   - Diagram of the **Entity-Relationship model** showing how entities in the system are related.
+
+2. **Relational_Model.png**  
+   - Diagram of the **relational model** representing tables, keys, and relationships in the database.
+
+---
+
+### Source_Code
 
 The **`Source_Code`** folder contains the actual code for the application. Here’s a list of the key files:
 
@@ -150,7 +183,7 @@ The **`Source_Code`** folder contains the actual code for the application. Here�
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 To run this application, you need to have the following installed:
 
@@ -159,7 +192,7 @@ To run this application, you need to have the following installed:
 
 ---
 
-## ⚡ How to Run the Application Locally
+## How to Run the Application Locally
 
 1. Install XAMPP and start the **Apache** and **MySQL** services.
 2. Create a new database in `phpmyadmin` and import the **database_setup.sql** file.
@@ -168,19 +201,19 @@ To run this application, you need to have the following installed:
 
 ---
 
-## 📑 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 If you want to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
 
 ---
 
-## 📞 Contact
+## Contact
 
-For any questions, feel free to reach out via [email](mailto:your-email@example.com).
+For any questions, feel free to reach out via [email](mailto:attia.computerengineer079@gmail.com).
 

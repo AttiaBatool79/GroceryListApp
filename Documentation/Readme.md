@@ -14,7 +14,7 @@ This helps you understand the project in detail, from idea to working model.
    - Screenshots of the application  
    - Conclusion
 
-2. **Presentation Slides (DBMS PROJECT PRESENTATION.pptx)**  
+2. **Presentation Slides (DBMS PROJECT PRESENTATION.pdf)**  
    - Summary of the project  
    - Main features  
    - Database structure (ER & relation diagrams)  

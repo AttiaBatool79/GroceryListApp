@@ -55,7 +55,7 @@ The **`XAMPP_Setup`** folder contains files to guide you through the process of 
 1. **README.md**  
    - Explains how to set up XAMPP, create a database, and run the project locally.
    
-2. **xampp_installation_guide.pdf** (optional)  
+2. **xampp_installation_guide.pdf** 
    - A detailed guide to install and configure XAMPP.
    
 3. **server_configuration.txt**  
@@ -105,9 +105,6 @@ The **`Documentation`** folder contains important project documents, including t
 
 2. **Project_Presentation.pptx**  
    - PowerPoint presentation summarizing the project, its features, and how it works.
-
-3. **ER_and_Relational_Model.pdf**  
-   - Contains the Entity-Relationship (ER) model and relational model diagrams that represent the database structure.
 
 ---
 

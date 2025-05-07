@@ -5,7 +5,7 @@ This helps you understand the project in detail, from idea to working model.
 
 ### What's inside the `Documentation` folder:
 
-1. **Project Report (DBMS_Report.pdf)**  
+1. **Project Report (project final report.docx)**  
    - Full explanation of the project  
    - Purpose and scope  
    - Tools and technologies used  
@@ -14,7 +14,7 @@ This helps you understand the project in detail, from idea to working model.
    - Screenshots of the application  
    - Conclusion
 
-2. **Presentation Slides (Presentation.pdf)**  
+2. **Presentation Slides (DBMS PROJECT PRESENTATION.pptx)**  
    - Summary of the project  
    - Main features  
    - Database structure (ER & relation diagrams)  

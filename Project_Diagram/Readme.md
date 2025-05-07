@@ -1,8 +1,8 @@
-# 📂 Project Diagram
+# Project Diagram
 
 The `Project_Diagram` folder contains the **ER diagram** and **Relational Model** of the database design for the project.
 
-### 📁 What's inside the `Project_Diagram` folder:
+### What's inside the `Project_Diagram` folder:
 
 1. **ER Diagram (ER Diagram.png)**  
    - Visual representation of the database schema.  

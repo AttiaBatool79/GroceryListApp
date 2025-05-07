@@ -5,7 +5,7 @@ This helps you understand the project in detail, from idea to working model.
 
 ### What's inside the `Documentation` folder:
 
-1. **Project Report (project final report.docx)**  
+1. **Project Report (project final report.pdf)**  
    - Full explanation of the project  
    - Purpose and scope  
    - Tools and technologies used  

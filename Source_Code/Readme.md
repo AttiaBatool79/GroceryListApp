@@ -55,7 +55,7 @@ The `Source_Code` folder contains the HTML, PHP, CSS, and image files that make 
     - Contains a form to collect user details like name, email, and password.
 
 14. **signup.php**  
-    - PHP script that processes the data from the `signup.html` form.  
+    - PHP script that processes the data from the `signup.html` form.
     - Validates and stores user information in the database.
 
 15. **style**  
